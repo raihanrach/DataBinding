@@ -1,67 +1,41 @@
 <resources>
-    <string name="app_name">PMB YARSI MOBILE</string>
-    <string name="text_desc">PDPT MAHASISWA BARU</string>
-
-<!--    Data Pribadi  -->
-    <string name="lblName">Nama Anda</string>
-    <string name="lblFaculty">Fakultas Pilihan</string>
-    <string name="lblProgram">Program Studi</string>
-    <string name="lblStatus">Status Pendaftaran</string>
-    <string name="lblPass">Password</string>
-    <string name="lblPassConf">Ketik Ulang Password</string>
-    <string name="lblReason">Alansan Anda</string>
-    <string name="lblNIK">No. Induk Kependudukan</string>
-    <string name="lblAchievement">Prestasi Akademik</string>
-    <string name="lblBirthPlace">Tempat Lahir</string>
-    <string name="lblBirthDate">Tanggal Lahir</string>
-    <string name="lblGender">Jenis Kelamin</string>
-    <string name="rbMale">Male</string>
-    <string name="rbFemale">Perempuan</string>
-    <string name="lblCitizenship">Kewarganegaraan</string>
-    <string name="rbIndonesia">Indonesia</string>
-    <string name="rbOther">Asing</string>
-    <string name="lblReligion">Agama</string>
-    <string name="lblAddress">Alamat</string>
-    <string name="rt">RT</string>
-    <string name="rw">rw</string>
-    <string name="kode_pos">Kode Pos</string>
-    <string name="lblHP">No HP</string>
-    <string name="email">Email</string>
-    <string name="lblProvince">Provinsi</string>
-    <string name="lblTown">Kota / Kabupaten</string>
-    <string name="btnNext">Selanjutnya</string>
-    <string-array name="faculty">
-        <item>Diploma 3</item>
-        <item>Sekolah Sarjana</item>
-        <item>Sekolah Pascasarjana</item>
+    <string name="app_name">Aplikasi Pendaftaran Bank Jago</string>
+    <string-array name="dataFakultas">
+        <item>SEKOLAH PASCASARJANA</item>
     </string-array>
-    <string-array name="program">
-        <item>Manajemen Informasi</item>
-        <item>Teknik Informatika</item>
-        <item>Teknik Elektronik</item>
-        <item>Magister Elektronika</item>
+    <string-array name="dataProdi">
+        <item>MAGISTER MANAJEMEN (S-2)</item>
+        <item>MAGISTER KENOTARIATAN (S-2)</item>
+        <item>MAGISTER SAINS BIOMEDIS (S-2)</item>
     </string-array>
-    <string-array name="status">
+    <string-array name="dataStatus">
         <item>Baru</item>
-        <item>Lama</item>
+        <item>Pindahan Luar Yarsi</item>
+        <item>Pindahan Dari Fakultas YARSI</item>
+        <item>Pindahan Dari Prodi Fakultas YARSI</item>
     </string-array>
-    <string-array name="town">
-        <item>Malang</item>
-        <item>Jakarta</item>
-        <item>Bali</item>
-        <item>Surabaya</item>
-        <item>Madiun</item>
-    </string-array>
-    <string-array name="religion">
+    <string-array name="dataAgama">
         <item>ISLAM</item>
         <item>KRISTEN</item>
-        <item>KATHOLIK</item>
+        <item>KATOLIK</item>
         <item>HINDU</item>
+        <item>BUDDHA</item>
+        <item>KONG HU CU</item>
     </string-array>
-    <string-array name="province">
-        <item>Jawa Timur</item>
-        <item>Jawa Tengah</item>
+    <string-array name="dataProvinsi">
+        <item>DKI Jakarta</item>
+        <item>Banten</item>
         <item>Jawa Barat</item>
-        <item>Sulawesi Tenggara</item>
+        <item>Jawa Tengah</item>
+        <item>DI Yogyakarta</item>
+        <item>Jawa Timur</item>
+    </string-array>
+    <string-array name="dataKota">
+        <item>Jakarta Pusat</item>
+        <item>Pandeglang</item>
+        <item>Bandung</item>
+        <item>Semarang</item>
+        <item>Bantul</item>
+        <item>Malang</item>
     </string-array>
 </resources>
